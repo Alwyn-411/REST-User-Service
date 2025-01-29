@@ -46,7 +46,7 @@ PUT /person/{id} Update user
 DELETE /person/{id} Delete user
 
 ## Project Structure
-
+```
 go-rest-api/
 ├── cmd/
 │ └── api/
@@ -59,6 +59,7 @@ go-rest-api/
 │ └── routes/
 └── pkg/
 └── utils/
+```
 
 ## Running Tests
 
