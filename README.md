@@ -38,13 +38,13 @@ go run cmd/api/main.go
 ```
 
 ## API Endpoints
-
-GET /persons Get all users
-GET /person/{id} Get user by ID
-POST /person Create new user
-PUT /person/{id} Update user
-DELETE /person/{id} Delete user
-
+```
+GET     - /persons       - Get all users
+GET     - /person/{id}   - Get user by ID
+POST    - /person        - Create new user
+PUT     - /person/{id}   - Update user
+DELETE  - /person/{id}   - Delete user
+```
 ## Project Structure
 ```
 go-rest-api/
